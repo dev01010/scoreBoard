@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>ScoreBoard</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="home-container">
+        <h2>HOME</h2>
+        <div id="home-score">0</div>
+        <div class="add-points-buttons">
+          <span onclick="addOne()" class="plus-1">+1</span>
+          <span onclick="addTwo()" class="plus-2">+2</span>
+          <span onclick="addThree()" class="plus-3">+3</span>
+        </div>
+      </div>
+      <div class="guest-container">
+        <h2>GUEST</h2>
+        <div id="guest-score">0</div>
+        <div class="add-points-buttons">
+          <span onclick="add1()" class="plus-1">+1</span>
+          <span onclick="add2()" class="plus-2">+2</span>
+          <span onclick="add3()" class="plus-3">+3</span>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="index.js"></script>
+</html>

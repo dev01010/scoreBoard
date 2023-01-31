@@ -1,0 +1,76 @@
+@font-face {
+  font-family: "circular_stdmedium";
+  src: url("circular-std-medium-500-webfont.woff2") format("woff2"),
+    url("circular-std-medium-500-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  margin: 0;
+  padding: 0;
+  color: aliceblue;
+}
+
+.container {
+  display: flex;
+  background-color: #1b244a;
+  max-width: 30%;
+  height: 400px;
+  margin: auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.guest-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+#home-score,
+#guest-score {
+  display: flex;
+  height: 120px;
+  width: 155px;
+  align-items: center;
+  justify-content: center;
+  color: #f94f6d;
+  font-size: 90px;
+  font-family: "circular_stdmedium";
+  background-color: #080001;
+  border-radius: 10px;
+}
+
+.add-points-buttons {
+  width: 155px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+span {
+  height: 45px;
+  width: 45px;
+  border: 2px solid #9aabd8;
+  border-radius: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.button-sec {
+  display: flex;
+  flex-direction: column;
+}
